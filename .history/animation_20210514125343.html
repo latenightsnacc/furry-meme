@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Logo Animation</title>
+
+    <style>
+        .logo {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .window {
+            width: 100px;
+            height: 70px;
+            position: absolute;
+        }
+        .red {
+            background: red;
+            left: 500px;
+        }
+        .green {
+            background: green;
+            
+        }
+        .blue {
+            background: blue;
+            right: 500px;
+        }
+        .yellow {
+            background: yellow;
+            top: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="window red"></div>
+        <div class="window green"></div>
+        <div class="window blue"></div>
+        <div class="window yellow"></div>
+    </div>
+</body>
+</html>

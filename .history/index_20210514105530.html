@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle {
+            width: 200px;
+            height: 50px;
+            background-color: green;
+            animation-name: animateRect;
+            animation-duration: 10s;
+
+        }
+
+        @keyframes  animateRect {
+            0% {background-color: red;}
+            10% {
+                background-color: yellow;
+                border: 2px solid blue;
+                }
+            30% {
+                background-color: aqua;
+            }
+            50% {
+                background-color: green;
+            }
+            100% {
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle"></div>
+</body>
+</html>
